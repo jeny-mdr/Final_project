@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dressing Website</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  
+  <header>
+    <a href="#" class="logo">Dress Comfy</a>
+    <!-- List of HTML pages -->
+    <ul class="navigation">
+      <li><a href="#banner">Home</a></li>
+      <li><a href="#About"><span>A</span>bout Us</a></li>
+      <li><a href="#gallery">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  
+    <section class="banner" id="banner">
+    <div class="content">
+      <h2>Dressing is a way of Life.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae,nemo fuga!
+ Minus voluptatem qui similique magnam autem in natus aperiam alias reiciendis 
+                eum vero dicta dolores maiores, saepe ipsam ab.
+      </p>
+      <a href="#" class="btn">Our Options</a>
+    </div>
+  </section> 
+
+  <section class="About" id="About">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titleText"><span>A</span>bout Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt quis repellat est facilis, asperiores id, quisquam nam velit, explicabo iure corrupti odio debitis quidem reprehenderit. Itaque delectus molestias dolorem.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis, voluptatum porro laborum, explicabo rerum quis enim labore nulla veritatis quisquam, nihil odio adipisci beatae pariatur consectetur! Obcaecati, ex fugit.</p>
+      </div>
+      <div class="col50">
+        <div class="imgBx">
+          <img src="about us.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="options" id="options"></section>
+   <div class="title">
+    <h2 class="titleText"><span>O</span>ptions</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet. Error vel nulla dolor voluptate sit sint esse aperiam harum blanditiis sequi eos, reiciendis repellendus, praesentium quidem ullam. Magni, quidem?</p>
+   </div>
+   <div class="content">
+    <div class="box">
+      <div class="imgBx"></div>
+      <img src="option1.webp">
+    </div>
+    <div>
+      <div class="text">
+        <h3>Dress 1</h3>
+      </div>
+      <div class="box">
+        <div class="imgBx"></div>
+        <img src="option2.webp">
+      </div>
+      <div>
+        <div class="text">
+          <h3>Dress 2</h3>
+        </div>
+        <div class="box">
+          <div class="imgBx"></div>
+          <img src="option3.jpg">
+        </div>
+        <div>
+          <div class="text">
+            <h3>Dress 3</h3>
+          </div>
+          <div class="box">
+            <div class="imgBx"></div>
+            <img src="option4.jpg">
+          </div>
+          <div>
+            <div class="text">
+              <h3>Dress 4</h3>
+            </div>
+            <div class="box">
+              <div class="imgBx"></div>
+              <img src="option5.jpg">
+            </div>
+            <div>
+              <div class="text">
+                <h3>Dress 5</h3>
+              </div>
+              <div class="box">
+                <div class="imgBx"></div>
+                <img src="option6.webp">
+              </div>
+              <div>
+                <div class="text">
+                  <h3>Dress 6</h3>
+                </div>
+    </div>
+   </div>
+
+  <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+      const header = document.querySelector("header");
+      header.classList.toggle("sticky",window.scrollY>0)
+    })
+  </script>
+
+</body>
+</html>

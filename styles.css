@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+*{
+
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+  scroll-behavior: smooth;
+}
+p
+{
+font-weight: 300;
+color:black;
+}
+body
+{
+    min-height: 1000px;
+
+}
+.banner{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url(bg_image.jpg);
+    background-size: cover;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align:center;
+}
+.banner .content h2
+{
+    font-size: 4em;
+    color:purple;
+}
+.btn{
+    font: 1em;
+    color:aliceblue;
+    background:green;
+    display:inline-block;
+    padding:10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+letter-spacing: 6px;
+}
+header
+{position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;
+    z-index: 10000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+
+}
+header.sticky
+{
+    background:#fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+header .logo
+{
+    color:#fff;
+    font-weight: 700;
+    font-size:2em;
+    text-decoration:none;
+}
+header.sticky .logo
+{
+    color:#111;
+}
+header .navigation
+{
+    position:relative;
+    display:flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a
+{
+    text-decoration:none;
+    color:white;
+    font-weight: 300;
+}
+header.sticky .navigation li a
+{
+    color:#111;
+}
+header .navigation li a:hover
+{
+    color:purple;
+}
+section
+{
+    padding:100px
+}
+.row
+{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+.row .col50
+{
+position: relative;
+}
+.titleText span
+{
+    color:purple;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.row .col50 .imgBx
+{
+    position:relative;
+    width:100;
+    min-height:300px;
+}
+
