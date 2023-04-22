@@ -239,6 +239,73 @@ position: relative;
     color:rgb(104, 27, 104);
     font-weight:600;
 }
+.contact
+{
+    background:url(bg_image3.webp);
+    background-size:cover;
+}
+.contactForm
+{
+    padding: 75px 50px;
+    box-shadow:0 15px 50px #9c343480;
+    max-width: 500px;
+
+}
+.contactForm h3
+{
+    color:purple;
+    font-size: 1.2em;
+    margin: bottom 20px;
+    font-weight:500;
+}
+.contactForm .inputBox
+{
+    position:relative;
+    width:100%;
+    margin-bottom:20px;
+   
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width:100%;
+    border:1px solid#555;
+    padding:10px;
+    color:rgb(95, 12, 95);
+    font: size 17px;
+    font-weight:300;
+    resize:none;
+
+}
+.contactForm .inputBox input[type="submit"]
+{
+    font-size:1em;
+    color:purple;
+    background:rgb(241, 174, 197);
+    display:inline-block;
+    text-transform: uppercase;
+    letter-spacing:0.5em;
+    transition:0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border:none;
+    cursor:pointer;
+}
+.copyrightText
+{
+    padding:8px 40px;
+    border-top:1px solid rgba(0,0,0,0.5);
+    text-align:center;
+}
+.copyrightText p
+{
+    color:#333;
+}
+.copyrightText a
+{
+    color:blue;
+}
+
 
 
 
