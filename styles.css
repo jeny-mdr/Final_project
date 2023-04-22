@@ -17,7 +17,7 @@ body
     min-height: 1000px;
 
 }
-.banner{
+.index{
     position:relative;
     width:100%;
     min-height:100vh;
@@ -27,12 +27,12 @@ body
     background:url(bg_image.jpg);
     background-size: cover;
 }
-.banner .content
+.index .content
 {
     max-width: 900px;
     text-align:center;
 }
-.banner .content h2
+.index .content h2
 {
     font-size: 4em;
     color:purple;
@@ -135,4 +135,110 @@ position: relative;
     width:100;
     min-height:300px;
 }
+.title
+{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+
+}
+.gallery .content
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    margin-top: 40px;
+}
+.gallery .content .box
+{
+    width: 340px;
+    margin:20px;
+    border: 15px solid plum;
+    box-shadow:0 5px 35px rgba(136, 55, 55, 0.08)
+}
+.gallery .content .box .imgBx
+{
+    position:relative;
+    width:100%;
+    height:300px;
+}
+.gallery .content .box .imgBx img
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.Goodwill
+{
+    background:url(bg_image2.webp);
+    background-size: cover;
+}
+.white .titleText,
+.white p
+{
+    color:#fff;
+}
+.Goodwill .content
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    margin-top: 40px;
+}
+.Goodwill .content .box
+{
+    width:340px;
+    margin:20px;
+    padding:40px;
+    background:plum;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Goodwill .content .box .imgBx
+{
+    position:relative;
+    width:80px;
+    height:80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.Goodwill .content .box .imgBx img
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.Goodwill .content .box .text
+{
+    text-align: center;
+}
+.Goodwill .content .box .text p
+{
+    color:#666;
+    font-style:italic;
+}
+.Goodwill .content .box .text h3
+{
+    margin-top: 20px;
+    color:#111;
+    font-size:1em;
+    color:rgb(104, 27, 104);
+    font-weight:600;
+}
+
+
 
