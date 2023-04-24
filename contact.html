@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="styles.css"> 
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   
@@ -19,6 +20,7 @@
           <li><a href="file:///C:/Users/Admin/Desktop/itassessement2023/gallery.html">Gallery</a></li>
           <li><a href="file:///C:/Users/Admin/Desktop/itassessement2023/goodwill.html">Goodwill</a></li>
           <li><a href="file:///C:/Users/Admin/Desktop/itassessement2023/contact.html">Contact</a></li>
+
         </ul>
       </nav>
         
@@ -27,29 +29,102 @@
     <section class="contact" id="contact">
         <div class="title white">
           <h2 class="titleText"><span>C</span>ontact Us</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quae sint fugiat enim magnam numquam recusandae corporis eos molestiae quo sapiente commodi sunt, consequuntur modi est neque aliquam at! Cum?</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus maxime aliquid, quam voluptates deserunt atque ex aperiam quasi molestiae voluptate tempora officiis fugit veritatis illo enim repudiandae minima laudantium soluta.</p>
+       
         </div>
+        <br>
+        <form method="get" action="url">
         <div class="contactForm">
         <h3>Send Message</h3>
+
         <div class="inputBox">
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" id="contact-name" onkeyup="validateName()">
+          <span id="name-error"></span>
         </div>
+
         <div class="inputBox">
-          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Phone Number" id="contact-number" onkeyup="validatePhone()">
+          <span id="phone-error"></span>
         </div>
+
         <div class="inputBox">
-          <textarea placeholder="Message"></textarea>
+          <input type="text" placeholder="Email" id="contact-Email" onkeyup="validateEmail()">
+          <span id="Email-error"></span>
         </div>
+
         <div class="inputBox">
-          <input type="submit" value="Send"></textarea>
+          <textarea rows="5" placeholder="Message" id="contact-message" onkeyup="validateMessage()"></textarea>
+          <span id="message-error"></span>
         </div>
+
+        <div class="inputBox">
+          <input type="button" value="Send" onclick="return validateForm()">
+          <span id="submit-error"></span>
+        </div>
+
       </div>
         </div>
+      </form>
       </section>
+    
+     
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+          
+            <div class="footer-col">
+              <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Affiliate Program</a></li>
+                </ul>
+             </div>
+             
+             <div class="footer-col">
+              <h4>Get help</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Order Status</a></li>
+                  <li><a href="#">Payment Options</a></li>
+                  
+                </ul>
+             </div>
+
+             <div class="footer-col">
+              <h4>Online Shop</h4>
+                <ul>
+                  <li><a href="#">Summer Dress</a></li>
+                  <li><a href="#">Formal Attire</a></li>
+                  <li><a href="#">Luxury Dress</a></li>
+                  <li><a href="#">Winter Dress</a></li>
+                </ul>
+             </div>
+
+             <div class="footer-col">
+              <h4>Follow us</h4>
+            
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+             </div>
+
+          </div>
+        </div>
+      </footer>
+
       <div class="copyrightText">
         <p>Copyright 2023<a href="#">Final Website</a>.All Rights Reserved.></p>
       </div>
-    
+      
+      <script src="web.js"></script>
     
     
       <script type="text/javascript">

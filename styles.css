@@ -110,8 +110,11 @@ header .navigation li a:hover
 }
 section
 {
-    padding:100px
+    padding:100px;
 }
+
+
+
 .row
 {
     position:relative;
@@ -136,6 +139,10 @@ position: relative;
     width:100;
     min-height:300px;
 }
+.table{
+padding-top:0px;
+}
+
 .title
 {
     width: 100%;
@@ -145,6 +152,7 @@ position: relative;
     flex-direction:column;
 
 }
+
 .gallery .content
 {
     display:flex;
@@ -278,7 +286,7 @@ position: relative;
     resize:none;
 
 }
-.contactForm .inputBox input[type="submit"]
+.contactForm .inputBox input[type="button"]
 {
     font-size:1em;
     color:purple;
@@ -292,6 +300,15 @@ position: relative;
     border:none;
     cursor:pointer;
 }
+
+.inputBox span
+{
+    position:absolute;
+    bottom:12px;
+    right:17px;
+    color:red;
+}
+
 .copyrightText
 {
     padding:8px 40px;
@@ -303,6 +320,33 @@ position: relative;
     color:#333;
 }
 .copyrightText a
+{
+    color:blue;
+}
+.footer
+{
+    background-color: rgb(75, 29, 75);
+}
+.footer-col h4
+{
+    margin:0 10px 10px 0;
+    color:white;
+}
+.footer-col ul li a
+{
+    color:plum;
+}
+
+.footer-col ul li a:hover
+{
+    color:#fff;
+}
+.footer-col .social-links a
+{
+    margin:0 10px 10px 0;
+    color:#fff;
+}
+.footer-col .social-links a:hover
 {
     color:blue;
 }
